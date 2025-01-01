@@ -1,0 +1,39 @@
+nav ul {
+    /* removes the bullet points */
+    list-style-type: none;
+    /* removes the default padding and margin */
+    margin: 0;
+    padding: 0;
+    /* hides overflow text */
+    overflow: hidden;
+    /* sets the background color */
+    background-color: #333;
+    /* makes the display flex, allowing me to change the position of the items in the list */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+nav li {
+    float: left;
+    width: 100%;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
