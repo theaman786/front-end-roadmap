@@ -1,3 +1,3 @@
-This is the second project in the front end roadmap of roadmap.sh, and it consists of creating a basic HTML website with multiple pages and structures, such as footers, headers, articles and sections. This may be improved upon in the future when I learn CSS, JS and PHP, but for now will serve as an introduction to HTML for me. Currently is filled with placeholder values.
+This is the Third project in the front end roadmap of roadmap.sh, and it consists of updating the previously created Basic HTML website with CSS styling to make it look nicer. Future features I may add include a dark mode, making sure the website looks good on different screen sizes and a proper contact form using PHP.
 
-See the project brief at [roadmap.sh](https://roadmap.sh/projects/basic-html-website)
+See the project brief at [roadmap.sh](https://roadmap.sh/projects/portfolio-website)
