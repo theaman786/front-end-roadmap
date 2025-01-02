@@ -1,3 +1,3 @@
-This is the Third project in the front end roadmap of roadmap.sh, and it consists of updating the previously created Basic HTML website with CSS styling to make it look nicer. Future features I may add include a dark mode, making sure the website looks good on different screen sizes and a proper contact form using PHP.
+This is the third project in the front end roadmap of roadmap.sh, and it consists of updating the previously created Basic HTML website with CSS styling to make it look nicer. Future features I may add include a dark mode, making sure the website looks good on different screen sizes / devices and a proper contact form using PHP.
 
 See the project brief at [roadmap.sh](https://roadmap.sh/projects/portfolio-website)
