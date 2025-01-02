@@ -18,7 +18,7 @@ nav li {
     width: 100%;
   }
   
-li a {
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,12 +28,46 @@ li a {
   }
   
   /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav ul li a:hover {
     background-color: #111;
 }
 
-h1 {
+.hero {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.flex-container article {
+  border: 2px solid red;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.flex-container .projects {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container .projects ul li {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: -40px;
+  text-align: left;
+  list-style-type: none;
+  text-align: center;
 }

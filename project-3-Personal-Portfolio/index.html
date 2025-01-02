@@ -32,9 +32,10 @@
     </head>
 
     <body>
-        <hr>
-        <header>
+        
+        <header class="navigation">
             <img width="64" src="../../assets/images/logo.png" alt="Logo">
+            <hr>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -43,55 +44,60 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <hr>
         </header>
 
         <main>
-            <article>
+            <article class = "hero">
                 <h1>Front End Developer</h1>
                 <p>html only with proper layout, no styling</p>
             </article>
 
-
-            <article>
-                <h2>Projects</h2>
-                <ul>
-                    <li>HTML Only Portfolio</li>
-                    <li>Calculator</li>
-                    <li>Quiz App</li>
-                    <li>Countdown Timer</li>
-                    <li>Product Upcoming Page</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Work Experience</h2>
-                <article>
-                    <h3>roadmap.sh</h3>
-                    <p>Currently Solving the front end projects</p>
-                    <a href="projects.html">Visit my Profile</a>
+            <div class = "flex-container">
+                <article class="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>HTML Only Portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Countdown Timer</li>
+                        <li>Product Upcoming Page</li>
+                    </ul>
                 </article>
-                <article>
-                    <h3>OpenSource Work</h3>
-                    <p>Contributed to X OpenSource projects. Made my own projects with X Github Stars</p>
-                    <a href="https://github.com/AayanH786">Visit my Github Profile</a>
+    
+                <article class = work-experience>
+                    <h2>Work Experience</h2>
+                    <article>
+                        <h3>roadmap.sh</h3>
+                        <p>Currently Solving the front end projects</p>
+                        <a href="projects.html">Visit my Profile</a>
+                    </article>
+                    <article>
+                        <h3>OpenSource Work</h3>
+                        <p>Contributed to X OpenSource projects. Made my own projects with X Github Stars</p>
+                        <a href="https://github.com/AayanH786">Visit my Github Profile</a>
+                    </article>
                 </article>
-            </article>
+    
+                <article class="education">
+                    <h2>Education</h2>
+                    <p>Currently Studying Computer Science and Mathematics. <br> Courses I took:</p>
+                    <ul>
+                        <li>Calculus I and II</li>
+                        <li>Algebra I and II</li>
+                        <li>Differential Equations</li>
+                        <li>Introduction to Algorithms</li>
+                        <li>Programming I and II</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Mobile Application Development</li>
+                    </ul>
+                </article>
+            </div>
 
-            <article>
-                <h2>Education</h2>
-                <p>Currently Studying Computer Science and Mathematics. <br> Courses I took:</p>
-                <ul>
-                    <li>Calculus I and II</li>
-                    <li>Algebra I and II</li>
-                    <li>Differential Equations</li>
-                    <li>Introduction to Algorithms</li>
-                    <li>Programming I and II</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Mobile Application Development</li>
-                </ul>
-            </article>
 
-            <article>
+           
+
+            <aside class="reviews">
                 <h2>Reviews from my Teachers</h2>
                 <blockquote>
                     <p>Aayan was a brilliant student; always stood out with his assignments.</p>
@@ -105,11 +111,11 @@
                     <p>Aayan was a brilliant student; always stood out with his assignments.</p>
                     <footer>Jane Doe, Assistant Professor</footer>
                   </blockquote>
-            </article>
+                </aside>
         </main>
 
 
-        <footer>
+        <footer class="footer">
             <p>&copy; All rights reserved 2025</p>
     </body>
 </html>
