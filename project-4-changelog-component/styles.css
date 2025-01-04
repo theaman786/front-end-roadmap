@@ -37,6 +37,7 @@
     position: relative;
     background-color: inherit;
     width: 50%;
+    
 }
 
 .container::after {
@@ -95,6 +96,7 @@
     background-color: lightgray;
     position: relative;
     border-radius: 6px;
+    border: 4px solid black;
 }
 
 button {
